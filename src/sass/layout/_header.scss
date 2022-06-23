@@ -1,14 +1,63 @@
-header{
-    
-    width: auto;
-    
-    ul{
-        justify-content: space-between;
-        display: flex;
-        list-style: none; 
-        padding-left: 50px;
-        li{
+//mobile
+@media only screen and (max-width: 480px) {   
+        header{
+            width: auto;
+        
+        ul{
+            justify-content: space-evenly;
+            display: flex;
+            list-style: none; 
+            li{
+                
+            }
+        }
+        }
+.DTonly{
+    display: none;
+}
+}
+
+//tablet
+@media only screen and (max-width: 833px) {
+        header{
             
+            width: auto;
+            
+            ul{
+                justify-content: space-evenly;
+                display: flex;
+                list-style: none; 
+                
+                li{
+                    
+                }
+            }
+        }
+.DTonly{
+    display: none;
+}
+}
+
+
+
+
+//desktop
+@media only screen and (min-width: 834px){
+        header{
+        
+        width: auto;
+        
+        ul{
+            justify-content: space-between;
+            display: flex;
+            list-style: none; 
+            padding-left: 50px;
+            li{
+                
+            }
         }
     }
+.TBonly{
+    display: none;
+}
 }
