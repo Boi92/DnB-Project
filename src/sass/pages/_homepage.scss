@@ -1,0 +1,26 @@
+.unicef-section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  padding: 10px;
+}
+.unicef-section img {
+  width: 100px;
+}
+.donate-link {
+  text-decoration: none;
+  width: 70%;
+  text-align: center;
+}
+
+// Desktop
+@media only screen and (min-width: 834px) {
+  .unicef-section {
+    flex-direction: row;
+  }
+  .donate-link {
+    width: 100%;
+  }
+}
