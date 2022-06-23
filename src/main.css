@@ -10,4 +10,6 @@ header {
 header ul {
   justify-content: space-between;
   display: flex;
+  list-style: none;
+  padding-left: 50px;
 }/*# sourceMappingURL=main.css.map */
