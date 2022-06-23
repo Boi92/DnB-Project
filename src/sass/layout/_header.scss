@@ -1,5 +1,7 @@
 header{
     position: sticky;
+    color: #f5f5f7;
+    background-color: rgb(27, 26, 26);
 }
 
 
@@ -7,24 +9,23 @@ header{
 @media only screen and (max-width: 480px) {   
         header{
             width: auto;
-            background-color: rgb(27, 26, 26);
-            opacity: 9;
         
         ul{
             justify-content: space-evenly;
             display: flex;
             list-style: none; 
             li{
-               color: #f5f5f7;
                padding-top: 1rem; 
                padding-bottom: 1rem;
             }
             li:nth-child(1){
                 padding-left: 2rem;
             }
-            li:nth-child(3){
-                
+            li:nth-child(3){ 
                padding-right: 2rem;
+            }
+            li:hover{
+                color: white;
             }
         }
 }
@@ -46,8 +47,18 @@ header{
                 list-style: none; 
                 
                 li{
-                    
-                }
+                    padding-top: 1rem; 
+                    padding-bottom: 1rem;
+                 }
+                 li:nth-child(1){
+                     padding-left: 2rem;
+                 }
+                 li:nth-child(3){ 
+                    padding-right:  2rem;
+                 }
+                 li:hover{
+                     color: white;
+                 }
             }
         }
 .DTonly{
@@ -65,12 +76,14 @@ header{
         width: auto;
         
         ul{
-            justify-content: space-between;
+            justify-content: space-evenly;
             display: flex;
             list-style: none; 
-            padding-left: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
             li{
-                
+                padding-top: 1rem; 
+               padding-bottom: 1rem; 
             }
         }
     }
