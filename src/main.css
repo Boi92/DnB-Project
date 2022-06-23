@@ -5,7 +5,6 @@
 }
 
 header {
-  position: -webkit-sticky;
   position: sticky;
   color: #f5f5f7;
   background-color: rgb(27, 26, 26);
@@ -33,7 +32,6 @@ header {
   header ul li:hover {
     color: white;
   }
-
   .DTonly {
     display: none;
   }
@@ -60,7 +58,6 @@ header {
   header ul li:hover {
     color: white;
   }
-
   .DTonly {
     display: none;
   }
@@ -80,8 +77,36 @@ header {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-
   .TBonly {
     display: none;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+.unicef-section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+  padding: 10px;
+}
+
+.unicef-section img {
+  width: 100px;
+}
+
+.donate-link {
+  text-decoration: none;
+  width: 70%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 834px) {
+  .unicef-section {
+    flex-direction: row;
+  }
+  .donate-link {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
