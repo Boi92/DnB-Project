@@ -4,12 +4,43 @@
   box-sizing: border-box;
 }
 
-header {
-  width: auto;
+@media only screen and (max-width: 480px) {
+  header {
+    width: auto;
+  }
+  header ul {
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+  }
+  .DTonly {
+    display: none;
+  }
 }
-header ul {
-  justify-content: space-between;
-  display: flex;
-  list-style: none;
-  padding-left: 50px;
+@media only screen and (max-width: 833px) {
+  header {
+    width: auto;
+  }
+  header ul {
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+  }
+  .DTonly {
+    display: none;
+  }
+}
+@media only screen and (min-width: 834px) {
+  header {
+    width: auto;
+  }
+  header ul {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    padding-left: 50px;
+  }
+  .TBonly {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
