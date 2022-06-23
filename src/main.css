@@ -81,6 +81,15 @@ header {
     display: none;
   }
 }
+:root {
+  --Grey: #484848;
+  --AppleGrey: #f5f5f7;
+}
+
+.unicef-div {
+  background-color: var(--AppleGrey);
+}
+
 .unicef-section {
   display: flex;
   flex-direction: column;
@@ -100,12 +109,44 @@ header {
   text-align: center;
 }
 
+.macbook-section {
+  background-image: url(./img/hero_macbookair__el7scava26mq_small_2x.png);
+  background-size: 800px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35rem;
+}
+
+.unit-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.unit-wrapper h2 {
+  font-size: 2rem;
+}
+.unit-wrapper img {
+  width: 190px;
+  padding: 0.5rem;
+}
+.unit-wrapper .avail {
+  color: var(--Grey);
+  font-size: 1.1rem;
+  padding-bottom: 0.5rem;
+}
+.unit-wrapper div {
+  display: flex;
+  gap: 3rem;
+}
+
 @media only screen and (min-width: 834px) {
   .unicef-section {
     flex-direction: row;
   }
   .donate-link {
     width: 100%;
+    text-align: start;
   }
 }
 
