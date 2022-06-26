@@ -139,6 +139,17 @@ header {
   display: flex;
   gap: 3rem;
 }
+.unit-wrapper div a:link,
+.unit-wrapper div a:visited {
+  text-decoration: none;
+}
+.unit-wrapper div a:hover,
+.unit-wrapper div a:active {
+  text-decoration: underline;
+}
+.unit-wrapper div i {
+  padding-left: 5px;
+}
 
 @media only screen and (min-width: 834px) {
   .unicef-section {
