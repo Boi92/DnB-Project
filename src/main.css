@@ -5,6 +5,7 @@
 }
 
 header {
+  position: -webkit-sticky;
   position: sticky;
   color: #f5f5f7;
   background-color: rgb(27, 26, 26);
@@ -32,6 +33,7 @@ header {
   header ul li:hover {
     color: white;
   }
+
   .DTonly {
     display: none;
   }
@@ -58,6 +60,7 @@ header {
   header ul li:hover {
     color: white;
   }
+
   .DTonly {
     display: none;
   }
@@ -77,6 +80,7 @@ header {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+
   .TBonly {
     display: none;
   }
@@ -105,23 +109,14 @@ header {
 
 .donate-link {
   text-decoration: none;
-  width: 70%;
+  width: 50%;
   text-align: center;
-}
-
-.macbook-section {
-  background-image: url(./img/hero_macbookair__el7scava26mq_small_2x.png);
-  background-size: 800px auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 35rem;
 }
 
 .unit-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 2rem;
 }
 .unit-wrapper h2 {
   font-size: 2rem;
@@ -142,6 +137,7 @@ header {
 .unit-wrapper div a:link,
 .unit-wrapper div a:visited {
   text-decoration: none;
+  color: rgb(15, 130, 168);
 }
 .unit-wrapper div a:hover,
 .unit-wrapper div a:active {
@@ -155,11 +151,45 @@ header {
   .unicef-section {
     flex-direction: row;
   }
+
   .donate-link {
     width: 100%;
     text-align: start;
   }
+
+  .Macimg {
+    display: none;
+  }
 }
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.container .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 40%;
+}
+.container .MacimgL {
+  display: none;
+}
+.container .Macimg {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.container2 h2 {
+  color: var(--AppleGrey);
+}
+.container2 p {
+  color: var(--Grey);
+}
+
 :root {
   --Grey: #484848;
   --AppleGrey: #f5f5f7;
@@ -205,6 +235,4 @@ footer p a:active {
   justify-content: space-between;
   border-bottom: 1px solid var(--Grey);
   padding: 0.5rem 0;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
