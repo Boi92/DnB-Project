@@ -207,4 +207,8 @@ footer p a:active {
   padding: 0.5rem 0;
 }
 
+.footer-dropdown {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */
