@@ -301,7 +301,11 @@ footer p a:active {
   justify-content: space-between;
   border-bottom: 1px solid var(--Grey);
   padding: 0.5rem 0;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> ef2e73a6e21ca1a22eba3fa826e4c9f20fb0d2cc
 }
 
 .footer-dropdown {
@@ -309,4 +313,10 @@ footer p a:active {
 }
 
 /*# sourceMappingURL=main.css.map */
+<<<<<<< HEAD
+=======
+}/*# sourceMappingURL=main.css.map */
+>>>>>>> 4c1ea438c851458231d41b575069b6a0974763d9
+=======
 
+>>>>>>> ef2e73a6e21ca1a22eba3fa826e4c9f20fb0d2cc
