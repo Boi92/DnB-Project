@@ -260,4 +260,12 @@ footer p a:active {
   justify-content: space-between;
   border-bottom: 1px solid var(--Grey);
   padding: 0.5rem 0;
-}/*# sourceMappingURL=main.css.map */
+
+}
+
+.footer-dropdown {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */
+
