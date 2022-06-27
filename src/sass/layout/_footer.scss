@@ -31,7 +31,7 @@ footer {
 }
 .footer-ul {
   list-style-type: none;
-  li {
+  .span-li {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--Grey);
@@ -40,5 +40,22 @@ footer {
 }
 .footer-dropdown {
   display: none;
+  list-style-type: none;
+}
+.footer-ul li:hover {
+  .footer-dropdown {
+    display: block;
+    width: 100%;
+  }
+}
+// FOOTER COPYRIGHT
+.footer-links {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  p {
+    border-left: 1px solid var(--Grey);
+    // padding: 0.3rem;
+  }
 }
 

@@ -5,7 +5,6 @@
 }
 
 header {
-  position: -webkit-sticky;
   position: sticky;
   color: #f5f5f7;
   background-color: rgb(27, 26, 26);
@@ -33,7 +32,6 @@ header {
   header ul li:hover {
     color: white;
   }
-
   .DTonly {
     display: none;
   }
@@ -60,7 +58,6 @@ header {
   header ul li:hover {
     color: white;
   }
-
   .DTonly {
     display: none;
   }
@@ -80,7 +77,6 @@ header {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-
   .TBonly {
     display: none;
   }
@@ -226,7 +222,6 @@ body {
   .unicef-section {
     flex-direction: row;
   }
-
   .donate-link {
     width: 100%;
     text-align: start;
@@ -243,7 +238,6 @@ body {
 .centered .prdctinfo {
     font-size: 20px;
   }
-
   .product-image {
     height: 570px;
   }
@@ -262,7 +256,6 @@ body {
   .unit-wrapper .avail {
     font-size: 9px;
   }
-
   .product-image {
     height: 285px;
   }
@@ -337,7 +330,7 @@ footer p a:active {
 .footer-ul {
   list-style-type: none;
 }
-.footer-ul li {
+.footer-ul .span-li {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid var(--Grey);
