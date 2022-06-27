@@ -89,7 +89,12 @@ header {
 @font-face {
   font-family: Apple;
   src: url(/src/fonts/SFUIText/SFUIText-Regular.otf);
+  font-size: 56px;
 }
+body {
+  font-family: Apple;
+}
+
 .unicef-div {
   background-color: var(--AppleGrey);
 }
@@ -97,7 +102,7 @@ header {
 .unicef-section {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 70%;
   margin: auto;
   align-items: center;
   padding: 10px;
@@ -113,12 +118,18 @@ header {
   text-align: center;
 }
 
+@media only screen and (min-width: 390px) and (max-width: 414px) {
+  .unicef-div {
+    font-size: 10px;
+  }
+}
 .MBAIRimg {
   background-image: url(/src/img/hero_macbookair__el7scava26mq_small_2x.png);
   width: 100%;
   height: 500px;
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .MBPROimg {
@@ -127,6 +138,7 @@ header {
   height: 500px;
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .iPhoneimg {
@@ -176,7 +188,6 @@ header {
 }
 .unit-wrapper .logoimg {
   width: 190px;
-  padding: 0.5rem;
 }
 .unit-wrapper .avail {
   color: var(--Grey);
@@ -215,8 +226,38 @@ header {
     width: 100%;
     text-align: start;
   }
-  .Macimg {
-    display: none;
+}
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .centered {
+    font-size: 20px;
+  }
+  .centered h2 {
+    font-size: 30px;
+  }
+  .centered .avail,
+.centered .prdctinfo {
+    font-size: 20px;
+  }
+  .product-image {
+    height: 570px;
+  }
+}
+@media only screen and (min-width: 390px) and (max-width: 414px) {
+  .unit-wrapper {
+    padding-top: 20px;
+    line-height: 15px;
+  }
+  .unit-wrapper h2 {
+    font-size: 19px;
+  }
+  .unit-wrapper div {
+    font-size: 9px;
+  }
+  .unit-wrapper .avail {
+    font-size: 9px;
+  }
+  .product-image {
+    height: 285px;
   }
 }
 /* Container holding the image and the text */
@@ -252,6 +293,7 @@ header {
 @font-face {
   font-family: Apple;
   src: url(/src/fonts/SFUIText/SFUIText-Regular.otf);
+  font-size: 56px;
 }
 footer {
   background-color: var(--AppleGrey);
