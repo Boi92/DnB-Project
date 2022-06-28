@@ -82,8 +82,9 @@ header {
   }
 }
 :root {
-  --Grey: #484848;
+  --Grey: #6e6e73;
   --AppleGrey: #f5f5f7;
+  --AppleBlue: rgb(15, 130, 168);
 }
 
 @font-face {
@@ -116,6 +117,10 @@ body {
   text-decoration: none;
   width: 50%;
   text-align: center;
+  color: rgb(15, 130, 168);
+}
+.donate-link .donate-link:visited {
+  color: rgb(15, 130, 168);
 }
 
 @media only screen and (min-width: 390px) and (max-width: 414px) {
@@ -123,60 +128,128 @@ body {
     font-size: 10px;
   }
 }
-.MBAIRimg {
-  background-image: url(/src/img/hero_macbookair__el7scava26mq_small_2x.png);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+@media only screen and (min-width: 834px) {
+  .unicef-section {
+    flex-direction: row;
+    padding-left: 15%;
+  }
+  .donate-link {
+    width: 100%;
+    text-align: start;
+  }
 }
-
-.MBPROimg {
-  background-image: url(/src/img/hero_mbp13__f88jcbca0ve6_small_2x.jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+@media only screen and (max-width: 768px) {
+  .MBAIRimg {
+    background-image: url(/src/img/hero_macbookair__el7scava26mq_small_2x.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .MBPROimg {
+    background-image: url(/src/img/hero_mbp13__f88jcbca0ve6_small_2x.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .iPhoneimg {
+    background-image: url(/src/img/hero_iphone13_avail__gnqqkzuai6um_small_2x.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .iPhoneimg2 {
+    background-image: url(/src/img/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .Applecardimg {
+    background-image: url(/src/img/tile__cauwwcyyn9hy_small_2x\ \(1\).jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .Katyimg {
+    background-image: url(/src/img/promo_katy_perry__eqekd92guu4i_small_2x.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
-
-.iPhoneimg {
-  background-image: url(/src/img/hero_iphone13_avail__gnqqkzuai6um_small_2x.jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  .container .centered {
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 20%;
+    transform: translate(-50%);
+    padding-right: 75%;
+  }
+  .MBAIRimg {
+    background-image: url(/src/img/hero_macbookair__el7scava26mq_largetall_2x.png);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .MBPROimg {
+    background-image: url(/src/img/hero_mbp13__f88jcbca0ve6_largetall_2x.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .iPhoneimg {
+    background-image: url(/src/img/hero_iphone13_avail__gnqqkzuai6um_small_2x.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .iPhoneimg2 {
+    background-image: url(/src/img/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .Applecardimg {
+    background-image: url(/src/img/tile__cauwwcyyn9hy_small_2x\ \(1\).jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .Katyimg {
+    background-image: url(/src/img/promo_katy_perry__eqekd92guu4i_small_2x.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
-
-.iPhoneimg2 {
-  background-image: url(/src/img/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.Applecardimg {
-  background-image: url(/src/img/tile__cauwwcyyn9hy_small_2x\ \(1\).jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.Katyimg {
-  background-image: url(/src/img/promo_katy_perry__eqekd92guu4i_small_2x.jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .unit-wrapper {
   display: flex;
   flex-direction: column;
@@ -201,6 +274,9 @@ body {
   color: white;
   font-size: 1.1rem;
 }
+.unit-wrapper .KTlink {
+  color: yellowgreen !important;
+}
 .unit-wrapper div {
   display: flex;
   gap: 3rem;
@@ -218,49 +294,6 @@ body {
   padding-left: 5px;
 }
 
-@media only screen and (min-width: 834px) {
-  .unicef-section {
-    flex-direction: row;
-  }
-  .donate-link {
-    width: 100%;
-    text-align: start;
-  }
-}
-@media only screen and (min-width: 414px) and (max-width: 768px) {
-  .centered {
-    font-size: 20px;
-  }
-  .centered h2 {
-    font-size: 30px;
-  }
-  .centered .avail,
-.centered .prdctinfo {
-    font-size: 20px;
-  }
-  .product-image {
-    height: 570px;
-  }
-}
-@media only screen and (min-width: 390px) and (max-width: 414px) {
-  .unit-wrapper {
-    padding-top: 20px;
-    line-height: 15px;
-  }
-  .unit-wrapper h2 {
-    font-size: 19px;
-  }
-  .unit-wrapper div {
-    font-size: 9px;
-  }
-  .unit-wrapper .avail {
-    font-size: 9px;
-  }
-  .product-image {
-    height: 285px;
-  }
-}
-/* Container holding the image and the text */
 .container {
   position: relative;
   text-align: center;
@@ -281,13 +314,43 @@ body {
   color: var(--Grey);
 }
 
-.KTlink {
-  color: yellowgreen !important;
+@media only screen and (min-width: 390px) and (max-width: 414px) {
+  .unit-wrapper {
+    padding-top: 20px;
+    line-height: 15px;
+  }
+  .unit-wrapper h2 {
+    font-size: 19px;
+  }
+  .unit-wrapper div {
+    font-size: 9px;
+  }
+  .unit-wrapper .avail {
+    font-size: 9px;
+  }
+  .product-image {
+    height: 285px;
+  }
 }
-
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .centered {
+    font-size: 20px;
+  }
+  .centered h2 {
+    font-size: 30px;
+  }
+  .centered .avail,
+.centered .prdctinfo {
+    font-size: 20px;
+  }
+  .product-image {
+    height: 570px;
+  }
+}
 :root {
-  --Grey: #484848;
+  --Grey: #6e6e73;
   --AppleGrey: #f5f5f7;
+  --AppleBlue: rgb(15, 130, 168);
 }
 
 @font-face {
@@ -298,7 +361,8 @@ body {
 footer {
   background-color: var(--AppleGrey);
   color: var(--Grey);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
 footer p {
   padding: 0.4rem 0;
@@ -314,29 +378,121 @@ footer p a:active {
 }
 
 .footer-paragraphs {
-  border-bottom: 1px solid var(--Grey);
-  width: 95%;
+  max-width: 980px;
   margin: 0 auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 1.5rem;
 }
 
 .footer-list {
-  width: 95%;
   margin: 0 auto;
-  padding-top: 1rem;
+  max-width: 980px;
+  padding: 1rem 1.5rem;
 }
 
 .footer-ul {
   list-style-type: none;
 }
-.footer-ul .span-li {
+
+.span-li {
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid var(--Grey);
+  padding: 0.7rem 0;
+}
+
+.footer-ul:nth-last-child(1) {
   border-bottom: 1px solid var(--Grey);
-  padding: 0.5rem 0;
 }
 
 .footer-dropdown {
   display: none;
-}/*# sourceMappingURL=main.css.map */
+  list-style-type: none;
+}
+
+.footer-ul li:hover .footer-dropdown {
+  display: block;
+  width: 100%;
+}
+
+.footer-dropdown li {
+  padding: 0.5rem 0rem;
+}
+
+.footer-copyright {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+.footer-links p {
+  border-right: 1px solid var(--Grey);
+  padding-right: 0.5rem;
+  margin-right: 0.8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.footer-links p:nth-of-type(5) {
+  border-right: 0;
+}
+
+.footer-shop a:link,
+.footer-shop a:visited {
+  color: var(--AppleBlue);
+}
+
+@media only screen and (min-width: 834px) {
+  .footer-dropdown {
+    display: block;
+  }
+  .span-li span:nth-of-type(1) {
+    font-weight: bold;
+    color: black;
+  }
+  .span-li span:nth-of-type(2) {
+    display: none;
+  }
+  .footer-ul .span-li {
+    border-top: 0;
+  }
+  .footer-ul {
+    display: flex;
+  }
+  .footer-ul .footer-flex-div {
+    width: 196px;
+    margin-right: 15px;
+  }
+  .footer-ul:nth-last-child(1) {
+    border-bottom: 0;
+  }
+  .footer-dropdown li {
+    margin-top: -0.4rem;
+  }
+  .footer-copyright div:nth-of-type(1) {
+    border-bottom: 1px solid var(--Grey);
+  }
+  .language-selection {
+    position: relative;
+  }
+  .language-selection .language-selection-p {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+@media only screen and (min-width: 877px) {
+  .footer-links {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+  }
+  .footer-copyright {
+    padding-bottom: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
