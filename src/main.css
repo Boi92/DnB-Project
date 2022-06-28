@@ -423,5 +423,15 @@ footer p a:active {
     top: 0;
   }
 }
+@media only screen and (min-width: 877px) {
+  .footer-links {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+  }
+  .footer-copyright {
+    padding-bottom: 1.5rem;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
