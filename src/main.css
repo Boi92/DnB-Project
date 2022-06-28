@@ -5,6 +5,7 @@
 }
 
 header {
+  position: -webkit-sticky;
   position: sticky;
   color: #f5f5f7;
   background-color: rgb(27, 26, 26);
@@ -32,6 +33,7 @@ header {
   header ul li:hover {
     color: white;
   }
+
   .DTonly {
     display: none;
   }
@@ -58,6 +60,7 @@ header {
   header ul li:hover {
     color: white;
   }
+
   .DTonly {
     display: none;
   }
@@ -77,6 +80,7 @@ header {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+
   .TBonly {
     display: none;
   }
@@ -117,6 +121,10 @@ body {
   text-decoration: none;
   width: 50%;
   text-align: center;
+  color: rgb(15, 130, 168);
+}
+.donate-link .donate-link:visited {
+  color: rgb(15, 130, 168);
 }
 
 @media only screen and (min-width: 390px) and (max-width: 414px) {
@@ -124,60 +132,140 @@ body {
     font-size: 10px;
   }
 }
-.MBAIRimg {
-  background-image: url(/src/img/hero_macbookair__el7scava26mq_small_2x.png);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+@media only screen and (min-width: 834px) {
+  .unicef-section {
+    flex-direction: row;
+    padding-left: 15%;
+  }
 
-.MBPROimg {
-  background-image: url(/src/img/hero_mbp13__f88jcbca0ve6_small_2x.jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  .donate-link {
+    width: 100%;
+    text-align: start;
+  }
 }
+@media only screen and (max-width: 768px) {
+  .MBAIRimg {
+    background-image: url(/src/img/hero_macbookair__el7scava26mq_small_2x.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-.iPhoneimg {
-  background-image: url(/src/img/hero_iphone13_avail__gnqqkzuai6um_small_2x.jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  .MBPROimg {
+    background-image: url(/src/img/hero_mbp13__f88jcbca0ve6_small_2x.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .iPhoneimg {
+    background-image: url(/src/img/hero_iphone13_avail__gnqqkzuai6um_small_2x.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .iPhoneimg2 {
+    background-image: url(/src/img/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .Applecardimg {
+    background-image: url(/src/img/tile__cauwwcyyn9hy_small_2x\ \(1\).jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .Katyimg {
+    background-image: url(/src/img/promo_katy_perry__eqekd92guu4i_small_2x.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  .container .centered {
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 20%;
+    transform: translate(-50%);
+    padding-right: 75%;
+  }
 
-.iPhoneimg2 {
-  background-image: url(/src/img/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  .MBAIRimg {
+    background-image: url(/src/img/hero_macbookair__el7scava26mq_largetall_2x.png);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .MBPROimg {
+    background-image: url(/src/img/hero_mbp13__f88jcbca0ve6_largetall_2x.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .iPhoneimg {
+    background-image: url(/src/img/hero_iphone13_avail__gnqqkzuai6um_small_2x.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .iPhoneimg2 {
+    background-image: url(/src/img/promo_iphone13pro_avail__beadms4ldidu_small_2x.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .Applecardimg {
+    background-image: url(/src/img/tile__cauwwcyyn9hy_small_2x\ \(1\).jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .Katyimg {
+    background-image: url(/src/img/promo_katy_perry__eqekd92guu4i_small_2x.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
-
-.Applecardimg {
-  background-image: url(/src/img/tile__cauwwcyyn9hy_small_2x\ \(1\).jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.Katyimg {
-  background-image: url(/src/img/promo_katy_perry__eqekd92guu4i_small_2x.jpg);
-  width: 100%;
-  height: 500px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .unit-wrapper {
   display: flex;
   flex-direction: column;
@@ -202,6 +290,9 @@ body {
   color: white;
   font-size: 1.1rem;
 }
+.unit-wrapper .KTlink {
+  color: yellowgreen !important;
+}
 .unit-wrapper div {
   display: flex;
   gap: 3rem;
@@ -219,49 +310,6 @@ body {
   padding-left: 5px;
 }
 
-@media only screen and (min-width: 834px) {
-  .unicef-section {
-    flex-direction: row;
-  }
-  .donate-link {
-    width: 100%;
-    text-align: start;
-  }
-}
-@media only screen and (min-width: 414px) and (max-width: 768px) {
-  .centered {
-    font-size: 20px;
-  }
-  .centered h2 {
-    font-size: 30px;
-  }
-  .centered .avail,
-.centered .prdctinfo {
-    font-size: 20px;
-  }
-  .product-image {
-    height: 570px;
-  }
-}
-@media only screen and (min-width: 390px) and (max-width: 414px) {
-  .unit-wrapper {
-    padding-top: 20px;
-    line-height: 15px;
-  }
-  .unit-wrapper h2 {
-    font-size: 19px;
-  }
-  .unit-wrapper div {
-    font-size: 9px;
-  }
-  .unit-wrapper .avail {
-    font-size: 9px;
-  }
-  .product-image {
-    height: 285px;
-  }
-}
-/* Container holding the image and the text */
 .container {
   position: relative;
   text-align: center;
@@ -282,10 +330,41 @@ body {
   color: var(--Grey);
 }
 
-.KTlink {
-  color: yellowgreen !important;
-}
+@media only screen and (min-width: 390px) and (max-width: 414px) {
+  .unit-wrapper {
+    padding-top: 20px;
+    line-height: 15px;
+  }
+  .unit-wrapper h2 {
+    font-size: 19px;
+  }
+  .unit-wrapper div {
+    font-size: 9px;
+  }
+  .unit-wrapper .avail {
+    font-size: 9px;
+  }
 
+  .product-image {
+    height: 285px;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .centered {
+    font-size: 20px;
+  }
+  .centered h2 {
+    font-size: 30px;
+  }
+  .centered .avail,
+.centered .prdctinfo {
+    font-size: 20px;
+  }
+
+  .product-image {
+    height: 570px;
+  }
+}
 :root {
   --Grey: #6e6e73;
   --AppleGrey: #f5f5f7;
@@ -388,16 +467,20 @@ footer p a:active {
   .footer-dropdown {
     display: block;
   }
+
   .span-li span:nth-of-type(1) {
     font-weight: bold;
     color: black;
   }
+
   .span-li span:nth-of-type(2) {
     display: none;
   }
+
   .footer-ul .span-li {
     border-top: 0;
   }
+
   .footer-ul {
     display: flex;
   }
@@ -405,23 +488,26 @@ footer p a:active {
     width: 196px;
     margin-right: 15px;
   }
+
   .footer-ul:nth-last-child(1) {
     border-bottom: 0;
   }
+
   .footer-dropdown li {
     margin-top: -0.4rem;
   }
+
   .footer-copyright div:nth-of-type(1) {
     border-bottom: 1px solid var(--Grey);
   }
+
   .language-selection {
     position: relative;
   }
+
   .language-selection .language-selection-p {
     position: absolute;
     right: 0;
     top: 0;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
